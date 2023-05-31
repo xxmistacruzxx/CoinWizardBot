@@ -2,28 +2,29 @@
 CoinWizardBot is a Discord Bot designed to bring cryptocurrency related slash commands to Discord.
 
 # Commands
+Parameters surrounded with "< >" are required, while "[ ]" are optional. 
 ## /address \<coin\> \<address\>
-Gets info of a cryptocurrency address.
-    • coin: A cryptocurrency to get market data of | options: BTC, ETH
-    • address: An address to lookup
+Gets info of a cryptocurrency address.<br>
+    • coin: A cryptocurrency to get market data of | options: BTC, ETH<br>
+    • address: An address to lookup<br>
 
 ## /convert \<amount\> \[coin\] \[currency\]
-Converts cryptocurrency amount to country currency value (default is BTC to USD).
-    • amount: An amount of cryptocurrency to convert
-    • coin: A cryptocurrency type to convert from - default is BTC
-    • currency: A country currency type to convert to - default is USD
+Converts cryptocurrency amount to country currency value (default is BTC to USD).<br>
+    • amount: An amount of cryptocurrency to convert<br>
+    • coin: A cryptocurrency type to convert from - default is BTC<br>
+    • currency: A country currency type to convert to - default is USD<br>
 
 ## /market \[coin\] \[currency\]
-Gives basic market info about a given cryptocurrency (default is BTC, shown in USD).
-    • coin: A cryptocurrency to get market data of - default is BTC 
-    • currency: A country currency to compare the worth of the cryptocurrency to - default is USD
+Gives basic market info about a given cryptocurrency (default is BTC, shown in USD).<br>
+    • coin: A cryptocurrency to get market data of - default is BTC<br>
+    • currency: A country currency to compare the worth of the cryptocurrency to - default is USD<br>
 
 # APIs, Tools, & Libraries Used
 ## Libraries
-• Discord.py
-• py-cord
-• requests
+• Discord.py<br>
+• py-cord<br>
+• requests<br>
 ## APIs
-• [CryptoCompare API](https://min-api.cryptocompare.com/documentation)
-• [Blockchain API](https://www.blockchain.com/explorer/api)
-• [Etherscan API](https://docs.etherscan.io/)
+• [CryptoCompare API](https://min-api.cryptocompare.com/documentation)<br>
+• [Blockchain API](https://www.blockchain.com/explorer/api)<br>
+• [Etherscan API](https://docs.etherscan.io/)<br>
