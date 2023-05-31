@@ -21,9 +21,9 @@ Gives basic market info about a given cryptocurrency (default is BTC, shown in U
 
 # APIs, Tools, & Libraries Used
 ## Libraries
-• Discord.py<br>
-• py-cord<br>
-• requests<br>
+• [discord.py](https://discordpy.readthedocs.io/en/stable/index.html)<br>
+• [py-cord](https://docs.pycord.dev/en/stable/index.html)<br>
+• [requests](https://pypi.org/project/requests/)<br>
 ## APIs
 • [CryptoCompare API](https://min-api.cryptocompare.com/documentation)<br>
 • [Blockchain API](https://www.blockchain.com/explorer/api)<br>
